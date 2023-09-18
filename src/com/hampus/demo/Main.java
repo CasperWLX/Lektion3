@@ -32,6 +32,9 @@ public class Main
 
         Student benny = new Student(20,"Benny");
         System.out.println(benny);
+
+        boolean gameIsRunning = true;
+        int counter = 0;
     }
     public static int randomAge()
     {

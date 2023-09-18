@@ -8,8 +8,10 @@ public class Main
 {
     public static void main(String[] args)
     {
+        //Lista för objekt
         ArrayList<Student> studentList = new ArrayList<>();
 
+        //Skapar 5 objekt med namn och ålder
         int randomNumber;
         for (int i = 0; i < 5; i++)
         {

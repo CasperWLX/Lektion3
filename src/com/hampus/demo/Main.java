@@ -8,6 +8,8 @@ public class Main
 {
     public static void main(String[] args)
     {
+        System.out.println("is this the first commit?");
+
         //Lista för objekt
         ArrayList<Student> studentList = new ArrayList<>();
 
@@ -35,8 +37,6 @@ public class Main
         Student benny = new Student(20,"Benny");
         System.out.println(benny);
 
-        boolean gameIsRunning = true;
-        int counter = 0;
     }
     public static int randomAge()
     {
